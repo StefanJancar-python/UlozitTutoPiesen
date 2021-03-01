@@ -103,7 +103,7 @@ choice = input("Zadajte svoj výber: ")
 if choice == '1':
 
     if "SPOTIFY_CLIENT_ID" and "SPOTIFY_CLIENT_SECRET" in os.environ:
-        print('Found SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET! :D')
+        print('Nájdené SPOTIFY_CLIENT_ID a SPOTIFY_CLIENT_SECRET! :D')
         client_ID = os.environ['SPOTIFY_CLIENT_ID']
         client_Secret = os.environ['SPOTIFY_CLIENT_SECRET']
         playlistLink = input("Zadajte odkaz na zoznam skladieb: ")
@@ -158,7 +158,7 @@ elif choice == '4':
 elif choice == '5':
 
     spotify = 'https://stefan222.pythonanywhere.com/'
-    github = 'https://github.com/vianoce/stfjncr'
+    github = 'https://github.com/vianoce/UlozitTutoPiesen'
     youtube = ''
 
     print('''

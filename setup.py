@@ -17,6 +17,6 @@ setuptools.setup(
                     ],
         description=('Toto je skript v jazyku Python, ktorý veľmi ľahko sťahuje skladby a dokonca aj zoznamy skladieb zo služieb Spotify a YouTube'),
         scripts=['utp'],
-        url='https://github.com/vianoce/stfjncr',
+        url='https://github.com/vianoce/UlozitTutoPiesen',
         author='Stefan jancar'
     )
